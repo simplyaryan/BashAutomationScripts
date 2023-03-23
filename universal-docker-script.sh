@@ -52,7 +52,7 @@ portainer_install () {
 }
 
 nginx_proxy_manager () {
-	wget https://raw.githubusercontent.com/Aryan-javamaster/BashScrpits/main/nginx-docker-compose.yml
+	wget https://raw.githubusercontent.com/codehive06/BashAutomationScripts/main/nginx-docker-compose.yml
 	mv nginx-docker-compose.yml docker-compose.yml
 	docker compose up -d
 }
